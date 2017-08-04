@@ -1,3 +1,4 @@
+
 var nav = document.getElementById("topNav");
 var menu = document.getElementsByClassName("menuitems");
 var close = document.getElementById("closebtn");
@@ -39,4 +40,3 @@ function navToggle() {
 	}
 
 };
- 

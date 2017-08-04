@@ -6,13 +6,16 @@
 	<title>Artbot</title>
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/index.css">
+
+
 </head>
 
 <body>
 	<header>
 		<nav>
-			<div id="topNav" class="navigation">
+			<div id="topNav" class="navigation animated bounceInDown">
 				<span id="closebtn" onclick="navToggle()">
       <span class="line1"></span>
 				<span class="line2"></span>
@@ -27,18 +30,19 @@
 	</header>
 	<section class="caspar">
 		<div class="background-image" style="background-image: url(img/caspar.jpg);"></div>
-		<h1>artbot</h1>
-		<h2>see art as a film</h2>
-		<a href="start.html" target="_self" class="btn">Push me</a>
+		<h1 class="animated rollIn">artbot</h1>
+		<h2 class="animated bounceInRight">see art as a film</h2>
+		<a href="start.html" target="_self" class="btn animated bounceInUp">Push me</a>
 	</section>
 	<section class="about">
 		<div id="link"></div>
 		<img src="img/icon.png" alt="Icon">
-		<h3 class="title">About</h3>
+		<h3 class=" title">About</h3>
 		<p>Our life is art and art is life. This project was created for the love of the art, in all its forms, especially in painting. All these wonderful masterpieces ever created. Now it's all in front of your eyes and always with you. Artbot loves art and
 			shares it with others. It's a very simple tool that improves your experience with art and making it closer to you. You don't even have to go to the gallery. Just push the button and see art as a film. <br> Stay close to the art. Stay with Artbot.</p>
 		<hr>
 		<img src="img/kiss.jpg" alt="Kiss">
+
 	</section>
 	<section class="why">
 		<h3>Why artbot?</h3>
@@ -72,6 +76,17 @@
 		<p class="quote">Art evokes the mystery without which the world would not exist.</p>
 		<p class="author">— Rene Magritte</p>
 	</section>
+
+	<section class="contact">
+		<h3 class="title">Subscribe to our newsletter</h3>
+		<p>Artbot is constantly improving.Subscribe to our newsletter to be informed of the latest updates and news</p>
+		<hr>
+		<form>
+			<input type="email" class="email" placeholder="Email">
+			<input type="submit" value="Subscribe" class="btnn" />
+		</form>
+	</section>
+
 	<footer>
 		<div id="link2"></div>
 		<ul>
@@ -91,9 +106,12 @@
 		<p>2017 by TarasK</p>
 		<p>All rights reserved.</p>
 	</footer>
+	<div class="form-result"></div>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="js/index.js"></script>
-	<script type="text/javascript" src="js/smooth.js"></script>
+	<script src="js/smooth.js"></script>
+	<script src="js/form.js"></script>
+
 </body>
 
 </html>
