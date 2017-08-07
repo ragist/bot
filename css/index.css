@@ -308,9 +308,9 @@ section p {
 
 .about {
 	background-color: #fff;
-	font-size: 16px;
-}
+	font-size: 20px;
 
+}
 
 /*--------------------
   Why
@@ -375,8 +375,9 @@ reviews {
 }
 
 .reviews .author {
-	font-size: 18px;
-	margin-bottom: 50px;
+	font-size: 17px;
+	
+	
 }
 
 .reviews .author:last-child {
