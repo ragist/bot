@@ -8,7 +8,7 @@ function call() {
             $('#results').html(data);
           },
           error:  function(xhr, str){
-	    alert('Возникла ошибка: ' + xhr.responseCode);
+	    alert('Error: ' + xhr.responseCode);
           }
         });
  
